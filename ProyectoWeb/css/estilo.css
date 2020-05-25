@@ -1,0 +1,16 @@
+.jumbotron{
+    height: 50%;
+    width: 100%;
+    text-align-last: center;
+}
+p{
+    padding-top: 5px;
+    border-style: solid;
+    border-color: #76CDB2;
+}
+.card-img-top{
+    padding-bottom: 7px;
+}
+.q{
+    border: 0ch;
+}
