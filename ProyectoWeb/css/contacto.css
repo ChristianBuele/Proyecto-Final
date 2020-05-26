@@ -6,6 +6,10 @@
     left: 50px;
    
 }
+.cuerpo{
+    text-align: center;
+    background: grey;
+}
 .contenedor{
     background: url(../img/personas.jpg) center top;
     background-size:cover; 
