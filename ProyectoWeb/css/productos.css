@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-size:cover; 
+    font-family: sans-serif;
+    height: 100vh;
+}
+.productos h1{
+    margin: 145px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size:80 px;
+    font-family: sans-serif;
+    
+
+}
+.tipop h1{
+    margin: -145px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size:60 px;
+    font-family: sans-serif;  
+}
+.tipog h1{
+    margin: -500px;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size:80 px;
+    font-family: sans-serif;  
+}
+.izquierda h1{
+    margin: 145px;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size:40 px;
+    font-family: sans-serif;  
+}
+.carrusel{
+    margin: -145px auto;
+    height: 100vh;
+    width: 70%;
+}
+.btnCompra{
+    margin: 10px;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carruselgratis{
+    margin: 500px auto;
+    height: 100vh;
+    width: 70%;
+}
+.izquierdagratis h1{
+    margin: 500px;
+    padding: 0 0 20px;
+    text-align: left;
+    font-size:500 px;
+    font-family: sans-serif;  
+}
