@@ -10,10 +10,11 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/estilo.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
   <title>Infinity Productions</title>
 </head>
 
-<body>
+<body class="bg-dark">
   <header class="header">
     <div class="bg-dark">
       <div class="container">
@@ -48,19 +49,19 @@
     </div>
   </header>
   <div class="jumbotron">
-    <h1><i class="fas fa-shopping-bag"></i>
+    <h1 class="font-weight-bold mb-4"><i class="fas fa-shopping-bag" ></i>
       Tienda</h1>
-    <p class="q">Aqui podras encontrar todos nuestros servicios, porfavor deja todo en nuestras manos</p>
+    <p class="q ">Aqui podras encontrar todos nuestros servicios, porfavor deja todo en nuestras manos</p>
   </div>
   <div class="contenedor">
     <section class="main">
       <div align='center'>
-        <h2> <i class="fas fa-camera"></i> Sesiones Personaizadas</h2>
+        <h2 class="font-weight-bold mb-4"> <i class="fas fa-camera"></i> Sesiones Personalizadas</h2>
       </div>
       <div class="container">
         <div class="card-deck mt-3">
 
-          <div class="card text-center border-info">
+          <div class="card text-center border-info bg-dark">
             <div class="card-body">
               <h4 class="card-title">Basica</h4>
               <a>
@@ -78,21 +79,20 @@
             </div>
           </div>
 
-          <div class="card text-center border-info" id="animado">
+          <div class="card text-center border-info bg-dark">
             <div class="card-body">
-              <h4 class="card-title">Estandar</h4>
+              <h4 class="card-title">Profesional</h4>
               <h3 text-align-last: center>
                 <i class="fas fa-dollar-sign"></i>
                 50</h3>
               <img class="card-img-top" src="img/curso1.jpg">
-              <br>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
                 tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
                 nec tortor sit amet, maximus mattis dui. </p>
-              <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus align-middle"></i>Agregar al carrito</a>
+              <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
             </div>
           </div>
-          <div class="card text-center border-info">
+       <div class="card text-center border-info bg-dark">
             <div class="card-body">
               <h4 class="card-title">Profesional</h4>
               <h3 text-align-last: center>
@@ -110,12 +110,11 @@
       </div>
       <div align='center'>
         <br>
-        <h2><i class="fas fa-video"></i> Bodas, Bautizos, 15 años</h2>
+        <h2 class="font-weight-bold mb-4" ><i class="fas fa-video"></i> Bodas, Bautizos, 15 años</h2>
       </div>
       <div class="container">
         <div class="card-deck mt-3">
-
-          <div class="card text-center border-info">
+          <div class="card text-center border-info bg-dark">
             <div class="card-body">
               <h4 class="card-title">Basica</h4>
               <a>
@@ -131,7 +130,7 @@
             </div>
           </div>
 
-          <div class="card text-center border-info">
+          <div class="card text-center border-info bg-dark">
             <div class="card-body">
               <h4 class="card-title">Estandar</h4>
               <h3 text-align-last: center>
@@ -145,7 +144,7 @@
             </div>
           </div>
 
-          <div class="card text-center border-info">
+          <div class="card text-center border-info bg-dark">
             <div class="card-body">
               <h4 class="card-title">Profesional</h4>
               <h3 text-align-last: center>
@@ -164,17 +163,19 @@
     </section>
 
     <aside>
-      <h6> Más sobre Infinity Productions</h6>
+      <h2 align='center'> Más sobre Infinity Productions</h2>
       <!-- SnapWidget -->
       <script src="https://snapwidget.com/js/snapwidget.js"></script>
       <iframe src="https://snapwidget.com/embed/831060" class="snapwidget-widget" allowtransparency="true"
         frameborder="0" scrolling="no" style="border:none; overflow:hidden;  width:100%; "></iframe>
       <div>
-        <h5>¿Quién soy?</h5>
-        <h6>¡Hola como estas! Soy Christian</h6>
-        <img src="img/me.jpg" height="150px" width="160px">
+        <h2 align='center'>¿Quién soy?</h2>
+        <h6 align='center'>¡Hola como estas! Soy Christian</h6>
+        <center>
+          <img src="img/me.jpg" height="150px" width="160px">
+        </center>
         <div>
-          <p class="q">Permiteme ser parte de este dia tan especial para ti, mientras
+          <p class="q" align='justify'>Permiteme ser parte de este dia tan especial para ti, mientras
             capturo los momentos más especiales y genuinos, que conservarán
             para la posterioridad.
             Permiteme ser parte de este dia tan especial para ti, mientras
@@ -184,6 +185,15 @@
             capturo los momentos más especiales y genuinos, que conservarán
             para la posterioridad.</p>
         </div>
+      </div>
+      <div>
+        <h2 align='center'>Inicia sesión para vivir tu mejor experiencia.</h2>
+        <a href="#" class="btn btn-success btn-lg btn-block" ><i class="fas fa-sign-in-alt"></i>Iniciar Sesión</a>
+      </div>
+      <div>
+        <h2  align='center'>Nuestras Redes Sociales</h2>
+        <h4 align='center'><i class="fab fa-facebook"></i>@InfinityProductions</h4>
+        <h4 align='center'><i class="fab fa-instagram"></i>@InfinityProductions</h4>
       </div>
     </aside>
   </div>
