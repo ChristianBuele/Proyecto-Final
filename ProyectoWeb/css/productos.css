@@ -29,8 +29,8 @@ body{
     font-family: sans-serif;  
 }
 .carrusel{
-    margin: 0px;
+    margin: -145px auto;
     height: 100vh;
-    width: 500px;
-    
+    width: 70%;
 }
+
