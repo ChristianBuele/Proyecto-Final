@@ -1,0 +1,33 @@
+.cuerpo_confirmar{
+    background: rgba(5, 117, 245, 0.192);
+    width: 70%;
+    height: 790px;
+    position:relative;
+    left:15%;
+    text-align: center;
+    align-self: center;
+}
+
+
+.cuerpo_confirmar h2{
+    border: black;
+    border-style: solid;
+    border-radius: 10px;
+    width: 70%;
+}
+
+#totalPagar{
+    font-size: 30px;
+    color: beige;
+}
+#totalcompra{
+    font-size: 30px;color: beige;
+
+}
+.mapa{
+    background: rgba(139, 69, 19, 0);
+    height: 360px;
+}
+.cuerpo{
+    background: rgb(48, 45, 42);
+}

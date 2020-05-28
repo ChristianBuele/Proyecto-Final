@@ -6,6 +6,15 @@
     left: 50px;
    
 }
+.buton{}
+#btn_cuenta{
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    background: rgba(27, 79, 109, 0);
+    width: 110px;
+    border: none;
+    outline: none;
+}
 .cuerpo{
     text-align: center;
     background: grey;
