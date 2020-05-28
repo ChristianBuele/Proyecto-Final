@@ -1,0 +1,8 @@
+.contenedorProductos{
+    background: white;
+    position: relative;
+    width: 70%;
+    height: 100vh;
+    align-self: center;
+    left:15%;
+}
