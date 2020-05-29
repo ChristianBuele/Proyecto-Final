@@ -16,13 +16,6 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.contenedor {
-	background:var(--color-dark-x);
-	margin:auto;
-	/* Flexbox */
-	display:flex;
-	flex-flow:row wrap;
-}
 header {
 	background:#2c3e50;
 	width:100%;

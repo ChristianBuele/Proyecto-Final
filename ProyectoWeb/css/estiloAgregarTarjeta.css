@@ -291,4 +291,5 @@ formulario-tarjeta .grupo-select:hover i{
 }
 .formulario-tarjeta .btn-enviar:hover{
 	background: #1850b1;
+	border-color: aliceblue;
 }
