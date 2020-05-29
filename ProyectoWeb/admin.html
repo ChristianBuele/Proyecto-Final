@@ -1,0 +1,450 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/contacto.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <title>Aministración</title>
+</head>
+
+<body>
+
+    <div class="cabezera">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar sticky-top">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <div class="containerr">
+                    <a class="navbar-brand" href="#">INFINITY PRODUCTIONS</a>
+                </div>
+                <ul class="navbar-nav mx-auto mt-2 mt-lg-0 h5">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="productoFinal.html">Productos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="tienda.html">Tienda</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Acerca de Nosotros</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav nav-flex-icons">
+                    <li class="nav-item">
+
+                        <div class="btn-group">
+                            <button type="button" id="btn_cuenta" class="dropdown-toggle" data-toggle="dropdown"
+                                aria-haspopup="true" aria-expanded="false">
+                                Mi Cuenta
+                            </button>
+                            <div class="dropdown-menu dropdown-menu-right " style="background: rgba(0, 0, 0, 0.548);">
+                                <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="login.html"><i
+                                        class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+                                <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="registro.html"><i
+                                        class="fas fa-user-plus"></i> Resgistrarse</a>
+                                <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="#"><i
+                                        class="fas fa-users-cog"></i> Configuración</a>
+                                <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="#"><i
+                                        class="fas fa-times"></i> Cerrar Sesión</a>
+
+                            </div>
+                        </div>
+                        <a href="https://www.facebook.com" class="nav-link">
+                            <i class="fas fa-cart-plus">Carrito</i>
+                        </a>
+                        <form class="form-inline mr-auto">
+                            <div class="md-form my-0">
+                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                            </div>
+                        </form>
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <div class="cuerpo" id="cuerpazo">
+        <div class="contenedor_admin">
+            <!-- bienvenida-->
+            <h1>BIENVENIDO A TU PÁGINA WEB</h1>
+            <h2 style="font-size: 23px;color: white;">A continuacion se muestra los eventos y pedidos pendientes</h2>
+            <br>
+            <!--/bienvenida-->
+
+            <!--eventos pendientes-->
+            <div class="tablas_admin">
+                <div class="table-responsive-lg">
+                    <table class="table table-bordered table-dark">
+                        <thead>
+                            <tr>
+                                <th scope="col">Fecha</th>
+                                <th scope="col">Tipo Evento</th>
+                                <th scope="col">Lugar Evento</th>
+                                <th scope="col">Cliente</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">1</th>
+                                <td>Mark</td>
+                                <td>Otto</td>
+                                <td>@mdo</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">2</th>
+                                <td>Jacob</td>
+                                <td>Thornton</td>
+                                <td>@fat</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">3</th>
+                                <td>Larry</td>
+                                <td>the Bird</td>
+                                <td>@twitter</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+            <!--/eventos pendientes-->
+            <h1 style="color: white;font-size: 15px;text-align: justify;padding: 10px;">
+                Si desea generar un informe con los detalles de los eventos genere un informe en el boton generar
+                informe.
+            </h1>
+            <button type="button" class="btn btn-light"><i class="far fa-file-alt"></i> Generar Informe</button>
+
+            <!--mod prodcutos-->
+            <br>
+            <br>
+            <h1><i class="far fa-edit"></i> MODIFICAR PRODUCTOS</h1>
+            <!-- Tabla Productos -->
+            <div class="card" style="background: white;">
+                <div class="card-body">
+                    <div id="table" class="table-editable">
+
+                        <table class="table table-bordered table-responsive-md table-striped text-center">
+                            <thead>
+                                <tr>
+                                    <th class="text-center">Nombre</th>
+                                    <th class="text-center">Descripcion</th>
+                                    <th class="text-center">Precio</th>
+                                    <th class="text-center">Descuento</th>
+                                    <th class="text-center">Eliminar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="pt-3-half" contenteditable="true">Aurelia Vega</td>
+                                    <td class="pt-3-half" contenteditable="true">30</td>
+                                    <td class="pt-3-half" contenteditable="true">Deepends</td>
+                                    <td class="pt-3-half" contenteditable="true">Spain</td>
+
+                                    <td>
+                                        <span class="table-remove"><button type="button"
+                                                class="btn btn-danger btn-rounded btn-sm my-0"><i
+                                                    class="far fa-trash-alt"></i> Eliminar</button></span>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <!-- /Tabla Productos -->
+            <button type="button" class="btn btn-light"><i class="far fa-save"></i> Guardar Cambios</button>
+            <!--/mod prodcutos-->
+            <!--add producto-->
+            <br>
+            <br>
+            <h1><i class="fas fa-plus"></i> AÑADIR PRODUCTOS</h1>
+            <div class="datosProductos">
+                <div class="md-form input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text md-addon" id="inputGroupMaterial-sizing-sm"
+                            style="color: white;">Nombre</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroupMaterial-sizing-sm" style="color: white;" required>
+                </div>
+                <div class="md-form input-group input-group-sm ">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text md-addon" id="inputGroupMaterial-sizing-sm"
+                            style="color: white;">Precio</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroupMaterial-sizing-sm" style="color: white;" required>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                    </div>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile01"
+                            aria-describedby="inputGroupFileAddon01">
+                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                    </div>
+                </div>
+                <div class="form-group green-border-focus">
+                    <label for="exampleFormControlTextarea5" style="color: white;">Descripción</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea5" rows="3"></textarea>
+                </div>
+                <button type="button" id="addproducto" class="btn btn-light"><i class="far fa-save"></i> Agregar
+                    Producto</button>
+
+            </div>
+            <!--/add producto-->
+
+            <!--modificar combo-->
+            <br>
+            <br>
+            <h1><i class="far fa-edit"></i> MODIFICAR COMBO</h1>
+            <!-- Tabla Combos -->
+            <div class="card" style="background: rgba(255, 255, 255, 0);">
+                <div class="card-body">
+                    <div id="table" class="table-editable">
+
+                        <table class="table table-bordered table-responsive-md table-striped text-center">
+                            <thead>
+                                <tr style="color: white;">
+                                    <th class="text-center">Nombre</th>
+                                    <th class="text-center">Descripcion</th>
+                                    <th class="text-center">Precio</th>
+                                    <th class="text-center">Productos Incluidos</th>
+                                    <th class="text-center">Eliminar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="color: white;">
+                                    <td class="pt-3-half" contenteditable="true">Aurelia Vega</td>
+                                    <td class="pt-3-half" contenteditable="true">30</td>
+                                    <td class="pt-3-half" contenteditable="true">Deepends</td>
+                                    <td class="pt-3-half" contenteditable="true">Spain</td>
+
+                                    <td>
+                                        <span class="table-remove"><button type="button"
+                                                class="btn btn-sm btn-rounded btn-sm my-0"><i
+                                                    class="far fa-trash-alt"></i> Eliminar</button></span>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="guardaCombo" class="btn btn-light"><i class="far fa-save"></i> Guarda
+                Cambios</button>
+            <!-- /Tabla Combos -->
+            0
+            <!--/modificar combo-->
+
+            <!--add combo-->
+            <br>
+            <br>
+            <h1><i class="fas fa-plus"></i> AÑADIR COMBO</h1>
+            <div class="datosProductos">
+                <div class="md-form input-group input-group-sm mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text md-addon" id="inputGroupMaterial-sizing-sm"
+                            style="color: white;">Nombre Combo</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroupMaterial-sizing-sm" style="color: white;" required>
+                </div>
+                <div class="md-form input-group input-group-sm ">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text md-addon" id="inputGroupMaterial-sizing-sm"
+                            style="color: white;">Precio Combo</span>
+                    </div>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroupMaterial-sizing-sm" style="color: white;" required>
+                </div>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text" id="inputGroupFileAddon01">Upload</span>
+                    </div>
+                    <div class="custom-file">
+                        <input type="file" class="custom-file-input" id="inputGroupFile01"
+                            aria-describedby="inputGroupFileAddon01">
+                        <label class="custom-file-label" for="inputGroupFile01">Choose file</label>
+                    </div>
+                </div>
+                <div class="btn-group">
+                    <div class="dropdown-menu dropdown-menu-right " style="background: rgba(0, 0, 0, 0.548);">
+                        <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="login.html"><i
+                                class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+                        <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="registro.html"><i
+                                class="fas fa-user-plus"></i> Resgistrarse</a>
+                        <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="#"><i
+                                class="fas fa-users-cog"></i> Configuración</a>
+                        <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="#"><i class="fas fa-times"></i>
+                            Cerrar Sesión</a>
+
+                    </div>
+                </div>
+                <div class="form-group green-border-focus">
+                    <label for="exampleFormControlTextarea5" style="color: white;">Descripción</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea5" rows="3"></textarea>
+                </div>
+                <button type="button" id="addproducto" class="btn btn-light"><i class="fas fa-plus"></i> Agregar
+                    Combo</button>
+
+            </div>
+            <!--/add combo-->
+
+            <!--uSUARIOS-->
+            <br>
+            <br>
+            <h1><i class="fas fa-cog"></i> ADMINISTRACIÓN DE USUARIOS</h1>
+            <!-- Tabla Combos -->
+            <div class="card" style="background: rgba(37, 35, 35, 0);">
+                <div class="card-body">
+                    <div id="table" class="table-editable">
+
+                        <table class="table table-bordered table-responsive-md table-striped text-center">
+                            <thead>
+                                <tr style="color: white;">
+                                    <th class="text-center">Nombre Usuario</th>
+                                    <th class="text-center">Bloquear</th>
+                                    <th class="text-center">Eliminar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr style="color: white;">
+                                    <td class="pt-3-half" contenteditable="true">Uusuario1</td>
+                                    <td>
+                                        <span class="table-remove"><button type="button"
+                                                class="btn btn-sm btn-sm my-0"><i
+                                                    class="fas fa-ban"></i> Bloquear</button></span>
+                                    </td>
+                                    <td>
+                                        <span class="table-remove"><button type="button"
+                                                class="btn btn-sm btn-rounded btn-sm my-0"><i
+                                                    class="far fa-trash-alt"></i> Eliminar</button></span>
+                                    </td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <button type="button" id="guardaCombo" class="btn btn-light"><i class="far fa-save"></i> Guardar
+                Cambios</button>
+            <!-- /Tabla Combos -->
+            <!--/USUARIOS-->
+
+            <!--ADD USUARIO-->
+            <br>
+            <br>
+            <h1><i class="fas fa-user-plus"></i> AÑADIR USUARIO</h1>
+
+            <!--/ADD USUARIO-->
+            <!-- Material input -->
+           <div class="container"> 
+
+            <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Nombres</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+              <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Apellidos</span>
+                </div>
+                <input type="text" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+              <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Correo</span>
+                </div>
+                <input type="mail" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+              <div class="input-group input-group-sm mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-sm">Contraseña</span>
+                </div>
+                <input type="password" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+              </div>
+              <button type="button" id="guardaCombo" class="btn btn-light"><i class="fas fa-plus"></i>  Agregar
+
+           </div>
+
+
+        </div>
+
+    </div>
+
+    <footer>
+        <div class="contenedor">
+            <!--rojooo-->
+            <div class="logo">
+                <a href="index.html">
+                    <img class="img" src="img/logo2.jpg" alt=""></a>
+                <div class="icons">
+                    <a class="iconslogos" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="iconslogos" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="iconslogos" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="iconslogos" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+            <div class="contenedorinfo">
+                <h1 style="size: 40px;">CONECTEMONOS</h1>
+                <p style="color: aliceblue;font-size: 15px;font-family: sans-serif;text-align: center;">Infinity
+                    Productions | Fotografia</p>
+                <p style="color: aliceblue;font-size: 15px;font-family: sans-serif;text-align: center;">
+                    infinityproductions@gmail.com</p>
+            </div>
+            <div class="condiciones">
+                <a href="#">Términos y Condiciones</a>
+                <a href="#">Políticas de Privacidad</a>
+                <a href="#">Políticas de Entrega</a>
+                <a href="#">Políticas de Reembolso</a>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
