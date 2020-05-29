@@ -41,35 +41,7 @@ body {
     border-radius: .2rem;
     padding: 1.5rem 1rem;
 }
-.register-bg {
-    background-image: url('curso1.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 100vh;
-}
-.testiomonial {
-    bottom: 10px
-}
 
-@media (max-width: 575.98px) {
-    .p-6 {
-        padding: 2rem;
-    }
-
-    .contact-box {
-        padding: 0;
-    }
-
-    .width-100 {
-        width: 100%;
-    }
-}
-
-@media (max-width: 1200px) { 
-    .register-bg {
-        min-height: 50vh;
-    }
-}
 * {
 	padding: 0;
 	margin: 0;
