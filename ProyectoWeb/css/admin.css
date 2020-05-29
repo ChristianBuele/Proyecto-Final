@@ -1,22 +1,21 @@
 #cuerpazo{
-    background: rgba(62, 60, 65, 0.877);
+    background: rgba(20, 20, 20, 0.877);
 }
 .contenedor_admin{
-    background: brown;
+    background: rgb(62, 63, 70);
     height: 100%;
     position: relative;
     width: 70%;
     left: 15%;
 }
 .btn_info{
-    background: brown;
+    background: rgb(53, 50, 50);
 }
 .tablas_admin{
-    background: green;
     padding: 5px;
 }
 .contenedor_admin h1{
-    color: wheat;
+    color: white;
     font-size: 25px;
 }
 .addProductosTitulos{
@@ -42,7 +41,6 @@
     float: left;
 }
 .datosProductos{
-    background: rgb(3, 41, 41);
     width: 70%;
     margin: auto;
 }
