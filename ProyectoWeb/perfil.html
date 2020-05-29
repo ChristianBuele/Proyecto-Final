@@ -1,0 +1,250 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/cambiarDatos.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/estiloAgregarTarjeta.css">
+    <script src="https://kit.fontawesome.com/adab6b318b.js" crossorigin="anonymous"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato|Liu+Jian+Mao+Cao&display=swap" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <div>
+        <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item" role="presentation">
+              <a class="nav-link active font-weight-bold"  id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Perfil</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Métodos de Pago</a>
+            </li>
+            <li class="nav-item" role="presentation">
+              <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Historial de Compras</a>
+            </li>
+          </ul>
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                <h2 align='center'>Modificar Perfil</h2>
+                <section >
+                    <div class="row no-gutters bg-dark">
+                        <div class="col-xl-7 col-lg-12 d-flex">
+                            <div class="container align-self-center p-6">
+                                <p class="text-muted mb-5">¡Bienvenido!.</p>
+                                <form action="">
+                                    <div class="form-row mb-2">
+                                        <div class="form-group col-md-6">
+                                            <label class="font-weigth-bold">Nombre <span class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" placeholder="Tu nombre">
+                                        </div>
+                                        <div class="form-group col-md-6">
+                                            <label class="font-weigth-bold">Apellido <span class="text-danger">*</span></label>
+                                            <input type="text" class="form-control" placeholder="Tu apellido">
+                                        </div>
+                                    </div>
+                                    <div class="form-group mb-3">
+                                        <label class="font-weigth-bold">Contraseña<span class="text-danger">*</span></label>
+                                        <input type="password" class="form-control" placeholder="Ingresa una contraseña">
+                                    </div>
+                                    <button class="btn btn-primary" align='center'>Registrate</button>
+                                </form>
+                                <small class="d-inline-block text-muted mt-5">Todos los derechos reservados | 2020 Infinity Productions</small>
+                            </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-12 register-bg">
+                            <div class="position-absolute testiomonial p-4">
+                                <h3 class="font-weight-bold text-light">La felicidad es una dirección, no un lugar.</h3>
+                                <p class="lead text-light"> Vivimos en un arcoíris de caos.</p>
+                            </div>
+                        </div>   
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <h2 align='center'>Métodos de Pago</h2>
+                <section >
+                    <div class="row no-gutters bg-dark">
+                        <div class="col-xl-7 col-lg-12 d-flex">
+                            <div class="contenedor">
+                                <h3 align='center'>Añadir Tarjetas</h3>
+                                <!--todo lo de aqui es para lo relacionado con la tarjeta --->
+                                <section class="tarjeta" id="tarjeta">
+                                  <div class="delantera">
+                                    <div class="logo-marca" id="logo-marca">
+                                      
+                                    </div>
+                                    <img src="img/chip-tarjeta.png" class="chip" alt="">
+                                    <div class="datos">
+                                      <div class="grupo" id="numero">
+                                        <p class="label">Número Tarjeta</p>
+                                        <p class="numero">#### #### #### ####</p>
+                                      </div>
+                                      <div class="flexbox">
+                                        <div class="grupo" id="nombre">
+                                          <p class="label">Nombre Tarjeta</p>
+                                          <p class="nombre">Jhon Doe</p>
+                                        </div>
+                                        <div class="grupo" id="expiracion">
+                                          <p class="label">Expiración</p>
+                                          <p class="expiracion"><span class="mes">MM</span> / <span class="year">AA</span></p>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <div class="trasera">
+                                    <div class="barra-magnetica"></div>
+                                    <div class="datos">
+                                      <div class="grupo" id="firma">
+                                        <p class="label">Firma</p>
+                                        <div class="firma"><p></p></div>
+                                      </div>
+                                      <div class="grupo" id="ccv">
+                                        <p class="label">cvv</p>
+                                        <p class="ccv"></p>
+                                      </div>
+                                    </div>
+                                    <p class="leyenda">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque assumenda quas esse repellendus blanditiis! Eum, labore fugit qui cumque architecto similique suscipit quisquam accusantium harum vitae excepturi iste ipsa minus.</p>
+                                    <a href="#" class="link-banco">wwww.tubanco.com</a>
+                                  </div>	
+                                </section>
+                                <!--todo lo de aqui es para lo relacionado con el boton para abrir el formulario --->
+                                <div class="contenedor-btn">
+                                  <button class="btn-abrir-formulario" id="btn-abrir-formulario">
+                                    <i class="fas fa-plus"></i>
+                                  </button>
+                                </div>
+                                <!--todo lo de aqui es para lo relacionado con el formulario--->
+                                <form action="" id="formulario-tarjeta" class="formulario-tarjeta">
+                                  <div class="grupo">
+                                    <label for="inputNumero">Número Tarjeta</label>
+                                    <input type="text" id="inputNumero" maxlength="19" autocomplete="off">
+                                  </div>
+                                  <div class="grupo">
+                                    <label for="inputNombre">Nombre</label>
+                                    <input type="text" id="inputNombre" maxlength="19" autocomplete="off">
+                                  </div>
+                                  <div class="flexbox">
+                                    <div class="grupo expira">
+                                      <label for="selectMes">Expiración</label>
+                                      <div class="flexbox">
+                                        <div class="grupo-select">
+                                          <select name="mes" id="selectMes">
+                                            <option disabled selected>Mes</option>
+                                          </select>
+                                          <i class="fas fa-angle-down"></i>
+                                        </div>
+                                        <div class="grupo-select">
+                                          <select name="year" id="selectYear">
+                                            <option disabled selected>Año</option>
+                                          </select>
+                                          <i class="fas fa-angle-down"></i>
+                                        </div>
+                                      </div>
+                                      
+                                      <div class="grupo ccv">
+                                        <label for="inputCCV CCV">CCV</label>
+                                        <input type="text" id="inputCCV" maxlength="3">
+                                      </div>
+                                    </div>
+                                  </div>
+                                  <button type="submit" class="btn-enviar">Añadir</button>
+                                </form>
+                              </div>
+                        </div>
+                        <div class="col-xl-5 col-lg-12">
+                            <h3 align='center'>Tarjetas Disponibles</h3>
+                            <div class="table-responsive">
+                                <table class="table table-bordered table-hover table-dark">
+                                    <thead>
+                                        <tr>
+                                            <th>Numero de la tarjeta</th>
+                                            <th>Editar</th>
+                                            <th>Eliminar</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>129029019010201</td>
+                                            <td href="#home">Editar</td>
+                                            <td>Eliminar</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>129029019010201</td>
+                                            <td>Editar</td>
+                                            <td>Eliminar</td>
+                                        </tr>
+                                    </tbody>
+                                    <tbody>
+                                        <tr>
+                                            <td>129029019010201</td>
+                                            <td>Editar</td>
+                                            <td>Eliminar</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>   
+                    </div>
+                </section>
+            </div>
+            <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                <h2 align='center'>Historial de Compras</h2>
+                <div class="table-responsive">
+                  <table class="table table-bordered table-hover table-dark">
+                      <thead>
+                          <tr>
+                              <th>Numero de Compra</th>
+                              <th>Fecha de Compra</th>
+                              <th>Producto</th>
+                              <th>Cantidad</th>
+                              <th>Precio Total de la Compra</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>129029019010201</td>
+                              <td href="#home">Editar</td>
+                              <td>Eliminar</td>
+                              <td>1</td>
+                              <td>30</td>
+                          </tr>
+                      </tbody>
+                      <tbody>
+                          <tr>
+                              <td>129029019010201</td>
+                              <td>Editar</td>
+                              <td>Eliminar</td>
+                              <td>1</td>
+                              <td>30</td>
+                          </tr>
+                      </tbody>
+                      <tbody>
+                          <tr>
+                              <td>129029019010201</td>
+                              <td>Editar</td>
+                              <td>Eliminar</td>
+                              <td>1</td>
+                              <td>30</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+              <div>
+                <h2 align='center'>Compras en proceso</h2>
+              </div>
+            </div>
+          </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>

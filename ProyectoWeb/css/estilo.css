@@ -16,13 +16,7 @@
 	padding: 0;
 	box-sizing: border-box;
 }
-.contenedor {
-	background:var(--color-dark-x);
-	margin:auto;
-	/* Flexbox */
-	display:flex;
-	flex-flow:row wrap;
-}
+
 header {
 	background:#2c3e50;
 	width:100%;
@@ -39,7 +33,7 @@ header {
 .rowno-guttersbg-dark{
 	background: var(--color-dark-x);
 }
-p{
+.bordes_tienda p{
     padding-top: 5px;
     border-style: solid;
     border-color: var(--color-light);
@@ -50,6 +44,7 @@ p{
 .q{
     border: 0ch;
 }
+
 .main {
 	background:var(--color-dark);
 	padding:20px;

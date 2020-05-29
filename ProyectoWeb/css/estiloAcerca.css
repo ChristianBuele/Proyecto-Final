@@ -47,48 +47,12 @@ body {
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-.testiomonial {
-    bottom: 10px
-}
-
-@media (max-width: 575.98px) {
-    .p-6 {
-        padding: 2rem;
-    }
-
-    .contact-box {
-        padding: 0;
-    }
-
-    .width-100 {
-        width: 100%;
-    }
-}
-
-@media (max-width: 1200px) { 
-    .register-bg {
-        min-height: 50vh;
-    }
-}
-
-ul.nav {
-    background-color:var(--color-dark);
-}
-ul.nav a{
-    color: var(--color-light);
-}
-.tab-pane{
-    background-color:var(--color-dark-x);
-    color: var(--color-light);
-}
 .jumbotron{
     height: 50%;
     width: 100%;
 	text-align-last: center;
-	background: var(--color-dark);
+	background: var(--color-dark-xx);
 }
-.btn{
-    border-radius:30% ;
-    vertical-align: autos;
+p{
+    padding-block:25 px;
 }
-

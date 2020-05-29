@@ -1,8 +1,20 @@
 .contenedorProductos{
+<<<<<<< HEAD
     background: white;
     position: relative;
     width: 70%;
     height: 100vh;
     align-self: center;
     left:15%;
+=======
+    background: rgba(46, 44, 44, 0.253);
+    position: relative;
+    width: 70%;
+    height: 100%;
+    align-self: center;
+    left:15%;
+}
+.cuerpoProductos{
+    background:white;
+>>>>>>> 1167911bb653ed0dcf16f82b0c71a596d008f995
 }

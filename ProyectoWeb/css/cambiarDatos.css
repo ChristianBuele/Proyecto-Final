@@ -42,13 +42,13 @@ body {
     padding: 1.5rem 1rem;
 }
 .register-bg {
-    background-image: url('curso1.jpg');
+    background-image: url('../img/w.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    min-height: 50vh;
 }
 .testiomonial {
-    bottom: 10px
+    bottom: 10px;
 }
 
 @media (max-width: 575.98px) {
@@ -91,4 +91,9 @@ ul.nav a{
     border-radius:30% ;
     vertical-align: autos;
 }
-
+.table{
+    border-left: 5px;
+}
+.table.table-dark{
+    background: var(--color-dark);
+}
