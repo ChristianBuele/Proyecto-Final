@@ -11,49 +11,80 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="stylesheet" href="css/estilo.css">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+  <link rel="stylesheet" href="css/contacto.css">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.18.0/css/mdb.min.css" rel="stylesheet">
+
   <title>Infinity Productions</title>
 </head>
 
 <body class="bg-dark">
-  <header>
-    <div class="bg-dark">
-      <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-            aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-            <a class="navbar-brand" href="#">INFINITY PRODUCTIONS</a>
-            <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Inicion <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Productos</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Tienda</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Acerca de Nosotros</a>
-              </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+     
+<div class="cabezera">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar sticky-top">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+        aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="containerr">
+          <a class="navbar-brand" href="#">INFINITY PRODUCTIONS</a>
+        </div>
+        <ul class="navbar-nav mx-auto mt-2 mt-lg-0 h5">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productoFinal.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tienda.html">Tienda</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="acercaNosotros.html">Acerca de Nosotros</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav nav-flex-icons">
+          <li class="nav-item">
+            
+            <div class="btn-group" >
+              <button type="button" id="btn_cuenta" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Mi Cuenta
+              </button>
+              <div class="dropdown-menu dropdown-menu-right " style="background: rgba(0, 0, 0, 0.548);">
+                <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="login.html"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+                  <a class="dropdown-item" style="color: rgb(3, 143, 131);"  href="registro.html"><i class="fas fa-user-plus"></i> Resgistrarse</a>
+                  <a class="dropdown-item" style="color: rgb(3, 143, 131);"  href="perfil.html"><i class="fas fa-users-cog"></i> Configuración</a>
+                  <a class="dropdown-item" style="color: rgb(3, 143, 131);"  href="#"><i class="fas fa-times"></i> Cerrar Sesión</a><!--va a-->
+                 
+              </div>
+            </div>
+            <a href="https://www.facebook.com" class="nav-link">
+              <i class="fas fa-cart-plus">Carrito</i>
+            </a>
+            <form class="form-inline mr-auto">
+              <div class="md-form my-0">
+                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+              </div>
             </form>
-          </div>
-        </nav>
+        </ul>
       </div>
-    </div>
-  </header>
-  <div class="jumbotron">
+    </nav>
+</div>
+
+
+
+
+
+  <div class="jumbotron" style="background: #2d343f;">
     <h1 class="font-weight-bold mb-4"><i class="fas fa-shopping-bag" ></i>
       Tienda</h1>
     <p class="q ">Aqui podras encontrar todos nuestros servicios, porfavor deja todo en nuestras manos</p>
   </div>
-  <div>
+
+
+  <div class="bordes_tienda">
       <div align='center'>
         <h2 class="font-weight-bold mb-4"> <i class="fas fa-camera"></i> Sesiones Personalizadas</h2>
       </div>
@@ -70,11 +101,11 @@
               </a>
               <img class="card-img-top" src="img/2020-02-15 17.50.51_1.jpg">
 
-              <p style="border:1" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
+              <p style="border:1;color: white;" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
                 lectus sem,
                 tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
                 nec tortor sit amet, maximus mattis dui. </p>
-              <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus align-middles"></i>Agregar al carrito</a>
+              <a style="border-radius: 15px;"  href="#" class="btn btn-primary"><i class="fas fa-cart-plus align-middles"></i>Agregar al carrito</a>
             </div>
           </div>
 
@@ -85,10 +116,10 @@
                 <i class="fas fa-dollar-sign"></i>
                 50</h3>
               <img class="card-img-top" src="img/curso1.jpg">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
+              <p style="border:1;color: white; ;"  class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
                 tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
                 nec tortor sit amet, maximus mattis dui. </p>
-              <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
+              <a style="border-radius: 15px;" href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
             </div>
           </div>
        <div class="card text-center border-info bg-dark">
@@ -98,10 +129,10 @@
                 <i class="fas fa-dollar-sign"></i>
                 80</h3>
               <img class="card-img-top" src="img/rt.jpg">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
+              <p style="border:1;color: white;" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
                 tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
                 nec tortor sit amet, maximus mattis dui. </p>
-              <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
+              <a style="border-radius: 15px;"  href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
             </div>
           </div>
 
@@ -122,10 +153,10 @@
                   100</h3>
               </a>
               <img class="card-img-top" src="img/MIG_1980.jpg">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
+              <p style="border:1;color: white;" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
                 tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
                 nec tortor sit amet, maximus mattis dui. </p>
-              <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
+              <a style="border-radius: 15px;" href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
             </div>
           </div>
 
@@ -136,10 +167,10 @@
                 <i class="fas fa-dollar-sign"></i>
                 150</h3>
               <img class="card-img-top" src="img/curso4.jpg">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
+              <p style="border:1;color: white;" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
                 tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
                 nec tortor sit amet, maximus mattis dui. </p>
-              <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
+              <a style="border-radius: 15px;"  href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
             </div>
           </div>
 
@@ -151,15 +182,41 @@
                 200</h3>
               <img class="card-img-top" src="img/a.jpg" onmouseover="this.width=500,this.heigth=400"
                 onmouseout="this.width=200,this.heigth=150">
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
+              <p style="border:1;color: white;" class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam lectus sem,
                 tempor vitae mattis malesuada, ornare sed erat. Pellentesque nulla dui, congue
                 nec tortor sit amet, maximus mattis dui. </p>
-              <a href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
+              <a style="border-radius: 15px;" style="border-radius: 15px;"  href="#" class="btn btn-primary"><i class="fas fa-cart-plus"></i>Agregar al carrito</a>
             </div>
           </div>
         </div>
       </div>
   </div>
+
+  <footer>
+    <div class="contenedor"><!--rojooo-->
+        <div class="logo">
+            <a href="index.html">
+                <img class="img" src="img/logo2.jpg" alt=""></a>
+                <div class="icons">
+                    <a class="iconslogos" href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a class="iconslogos" href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a class="iconslogos" href="https://twitter.com/login?lang=es"><i class="fab fa-twitter"></i></a>
+                    <a class="iconslogos" href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+                </div>
+        </div>
+        <div class="contenedorinfo">
+            <h1 style="size: 40px;">CONECTEMONOS</h1>
+            <p style="color: aliceblue;font-size: 15px;font-family: sans-serif;text-align: center;">Infinity Productions | Fotografia</p>
+            <p style="color: aliceblue;font-size: 15px;font-family: sans-serif;text-align: center;">infinityproductions@gmail.com</p>
+        </div>
+        <div class="condiciones">
+            <a href="#">Términos y Condiciones</a>
+            <a href="#">Políticas de Privacidad</a>
+            <a href="#">Políticas de Entrega</a>
+            <a href="#">Políticas de Reembolso</a>
+        </div>
+    </div>
+</footer>
   <!-- Optional JavaScript -->
   <!-- jQuery first, then Popper.js, then Bootstrap JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
