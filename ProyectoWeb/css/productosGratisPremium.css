@@ -1,8 +1,11 @@
 .contenedorProductos{
-    background: white;
+    background: rgba(49, 45, 45, 0.192);
     position: relative;
     width: 70%;
     height: 100vh;
     align-self: center;
     left:15%;
+}
+.cuerpoProductos{
+    background:rgb(83, 83, 83);
 }
