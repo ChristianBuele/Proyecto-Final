@@ -28,45 +28,55 @@
 <body>
 
     <div class="cabezera">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar ">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark scrolling-navbar sticky-top">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
-                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+              aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-                <div class="containerr">
-                    <a class="navbar-brand" href="#">INFINITY PRODUCTIONS</a>
-                </div>
-                <ul class="navbar-nav mx-auto mt-2 mt-lg-0 h5">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Tienda</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Acerca de Nosotros</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav nav-flex-icons">
-                    <li class="nav-item">
-                        <a href="https://www.facebook.com" class="nav-link">
-                            <i class="far fa-user-circle"> Usuario</i>
-                        </a>
-                        <a href="https://www.facebook.com" class="nav-link">
-                            <i class="fas fa-cart-plus">Carrito</i>
-                        </a>
-                        <form class="form-inline mr-auto">
-                            <div class="md-form my-0">
-                                <input class="form-control" type="text" placeholder="Search" aria-label="Search">
-                            </div>
-                        </form>
-                </ul>
+              <div class="containerr">
+                <a class="navbar-brand" href="#">INFINITY PRODUCTIONS</a>
+              </div>
+              <ul class="navbar-nav mx-auto mt-2 mt-lg-0 h5">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Inicio <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Tienda</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Acerca de Nosotros</a>
+                </li>
+              </ul>
+              <ul class="navbar-nav nav-flex-icons">
+                <li class="nav-item">
+                  
+                  <div class="btn-group" >
+                    <button type="button" id="btn_cuenta" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                       Mi Cuenta
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right " style="background: rgba(0, 0, 0, 0.548);">
+                      <a class="dropdown-item" style="color: rgb(3, 143, 131);" href="login.html"><i class="fas fa-sign-in-alt"></i> Iniciar Sesión</a>
+                        <a class="dropdown-item" style="color: rgb(3, 143, 131);"  href="registro.html"><i class="fas fa-user-plus"></i> Resgistrarse</a>
+                        <a class="dropdown-item" style="color: rgb(3, 143, 131);"  href="#"><i class="fas fa-users-cog"></i> Configuración</a>
+                        <a class="dropdown-item" style="color: rgb(3, 143, 131);"  href="#"><i class="fas fa-times"></i> Cerrar Sesión</a>
+                       
+                    </div>
+                  </div>
+                  <a href="https://www.facebook.com" class="nav-link">
+                    <i class="fas fa-cart-plus">Carrito</i>
+                  </a>
+                  <form class="form-inline mr-auto">
+                    <div class="md-form my-0">
+                      <input class="form-control" type="text" placeholder="Search" aria-label="Search">
+                    </div>
+                  </form>
+              </ul>
             </div>
-        </nav>
+          </nav>
     </div>
     <div class="esqueleto">
         <div class="log">
